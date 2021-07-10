@@ -157,14 +157,14 @@ main figure.KrokoBram {
     max-width: 500px;
 }
 
-main .KrokoBram img {
+main.KrokoBram img {
     width: 100%;
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: linear;
 }
 
-main .KrokoBram img:hover {
+main.KrokoBram img:hover {
     opacity: 0;
 }
 
@@ -203,4 +203,6 @@ figcaption{
     text-align: center;
 }
 
-
+.thick {
+    font-weight: bold;
+}
