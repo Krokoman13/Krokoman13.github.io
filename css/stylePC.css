@@ -1,0 +1,23 @@
+    main {
+        flex-wrap: nowrap;
+    }
+
+    main aside.left {
+        order: 1;
+    }
+    
+    main section.middle {
+        order: 2;
+    }
+    
+    main aside.right {
+        order: 3;
+    }
+
+    footer article{
+        flex-grow: 3;
+    }
+    
+    footer figure {
+        flex-grow: 1;
+    }
