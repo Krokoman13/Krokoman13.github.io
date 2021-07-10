@@ -149,6 +149,10 @@ main aside img {
     width: 100%;
 }
 
+main aside section {
+    display:inline;
+}
+
 main figure.KrokoBram {
     background-image: url('/Images/normalbram.png');
     background-size: 100%;
@@ -157,14 +161,14 @@ main figure.KrokoBram {
     max-width: 500px;
 }
 
-main.KrokoBram img {
+main .KrokoBram img {
     width: 100%;
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: linear;
 }
 
-main.KrokoBram img:hover {
+main .KrokoBram img:hover {
     opacity: 0;
 }
 
@@ -201,8 +205,4 @@ img{
 
 figcaption{
     text-align: center;
-}
-
-.thick {
-    font-weight: bold;
 }
