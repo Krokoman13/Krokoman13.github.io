@@ -99,7 +99,6 @@ main section.middle{
 
 main article{
     display: flex;
-    display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 20px;
@@ -113,6 +112,15 @@ main section.middle article{
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
+}
+
+main section.middle a{
+    text-decoration: none;
+    color: black;
+}
+
+main section.middle a article:hover{
+    background-color: white;
 }
 
 main section.middle article > * {
@@ -147,6 +155,10 @@ main aside figure{
 
 main aside img {
     width: 100%;
+}
+
+main aside section {
+    display:inline;
 }
 
 main figure.KrokoBram {
@@ -199,8 +211,11 @@ img{
     width: 100%;
 }
 
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
 figcaption{
     text-align: center;
 }
-
-

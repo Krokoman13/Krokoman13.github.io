@@ -17,10 +17,11 @@
         order: 3;
     }
 
-    footer section{
+    footer article{
         flex-grow: 2;
     }
     
     footer figure {
         flex-grow: 1;
+        flex-basis: 50px;
     }
