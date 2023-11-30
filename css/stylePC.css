@@ -20,4 +20,10 @@
     
     footer figure {
         flex-grow: 1;
+        flex-basis: 50px;
+        width: 30vw;
+    }
+
+    footer figcaption {
+        font-size: 2vw;
     }

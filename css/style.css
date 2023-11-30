@@ -184,16 +184,20 @@ main .KrokoBram img:hover {
     opacity: 0;
 }
 
-footer {
+footer section {
     color: #ffffff;
     background-color: #078047;
     overflow: hidden;
     display: flex;
     width: 100%;
+
 }
 
 footer article{
     flex-basis: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 footer p{
@@ -203,12 +207,10 @@ footer p{
 
 footer figure {
     padding: 10px;
-    flex-basis: 50px;
 }
 
 footer figcaption{
     text-align: center;
-    font-size: 1.5vw;
 }
 
 img{
@@ -227,7 +229,7 @@ figcaption{
 footer nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     margin: 0;
     padding-left: 5px;
     padding-right: 5px;
@@ -240,13 +242,11 @@ footer nav ul li {
 }
 
 footer nav ul li a{
-    display: inline-block;
+    display: flex;
 
     font-size: 16px;
     background-color: #078047;
     text-align: center;
-
-    padding: 0.75em 0;
     
     color: #ffffff;
 
@@ -254,9 +254,25 @@ footer nav ul li a{
     border-style: solid;
     border-width: 4px;
     text-decoration: none;
+
+    justify-content: space-around;
 }
 
 footer nav img {
     width: 4vw;
     height: 4vw;
+}
+
+footer .Email {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+footer .End {
+    background-color: #B1B1B1;
+    color: #000000;
+    display: block;
+    text-align: center;
 }
