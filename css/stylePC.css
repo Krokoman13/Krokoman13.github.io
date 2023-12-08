@@ -27,3 +27,7 @@
     footer figcaption {
         font-size: 2vw;
     }
+
+    main section.middle article{
+        flex-direction: row;
+    }

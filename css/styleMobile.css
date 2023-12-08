@@ -25,17 +25,19 @@
         order: 1;
     }
 
-    main section.middle a article{
+    main section.middle article{
         flex-direction: column;
         margin-bottom: 0%;
     }
 
-    main section.middle a section{
+    main section.middle section{
         order: -1;
     }
 
     main section.middle article figure {
         flex-basis: 20%;
+        width: 100%;
+        padding: 10px;
     }
     
     main aside.right {

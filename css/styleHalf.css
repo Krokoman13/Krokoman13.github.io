@@ -26,3 +26,7 @@
         flex-basis: 50px;
         width: 50vw;
     }
+
+    main section.middle article{
+        flex-direction: row;
+    }
