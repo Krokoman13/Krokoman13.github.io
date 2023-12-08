@@ -135,13 +135,13 @@ main section.middle article > * {
 }
 
 main section.middle article figure {
-    flex-grow: 1;
+    flex-grow: 1.5;
     font-size: 15px;
 }
 
 main section.middle article figure.trailer 
 {
-    flex-grow: 2;
+    flex-grow: 2.5;
 }
 
 main aside {
