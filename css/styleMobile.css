@@ -18,11 +18,13 @@
 
     main aside.left {
         order: 2;
+        margin-top: 5px;
         margin-bottom: 5px;
     }
     
     main section.middle {
         order: 1;
+        margin-bottom: 5px;
     }
 
     main section.middle article{

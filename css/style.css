@@ -139,6 +139,11 @@ main section.middle article figure {
     font-size: 15px;
 }
 
+main section.middle article figure.trailer 
+{
+    flex-grow: 2;
+}
+
 main aside {
     background-color: #E2E2E2;
     flex-basis: 20px;
