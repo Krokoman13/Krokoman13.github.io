@@ -154,8 +154,13 @@ main aside {
     padding: 5px;
 }
 
+main aside p {
+    margin-bottom: 0;
+    align-self:baseline;
+}
+
 main aside > * {
-    margin:5px;
+    margin: 5px;
 }
 
 main aside figure{
