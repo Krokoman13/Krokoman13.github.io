@@ -160,7 +160,11 @@ main aside {
 
 main aside p {
     margin-bottom: 0;
-    align-self:baseline;
+    align-self: baseline;
+}
+
+main aside article {
+    width: 100%;
 }
 
 main aside > * {
