@@ -101,6 +101,15 @@ main section.middle{
     padding: 5px;
 }
 
+
+main section.middle article.showreel {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
 .leftAlligned{
     align-items: flex-start;
 }
