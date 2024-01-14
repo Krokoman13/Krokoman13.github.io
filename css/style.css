@@ -5,8 +5,8 @@
 *{
 	margin: 0;
 	padding: 0;
-    box-sizing: border-box;;
-	font-family: Bitter, sans-serif;
+    box-sizing: border-box;
+	font-family: 'Lato', monospace;
 }
 
 body{
@@ -15,6 +15,10 @@ body{
 
 header {
     background-color: #6C9C4F;
+}
+
+header h1 a {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 header a {
