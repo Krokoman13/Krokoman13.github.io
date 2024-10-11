@@ -147,6 +147,14 @@ main section.middle article > * {
     margin: 5px;
 }
 
+main section.middle article.quote{
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #838282;
+}
+
 main section.middle article figure {
     flex-grow: 1.5;
     font-size: 15px;
@@ -210,6 +218,8 @@ main .KrokoBram img {
 main .KrokoBram img:hover {
     opacity: 0;
 }
+
+
 
 footer section {
     color: #ffffff;
