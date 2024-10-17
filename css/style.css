@@ -131,6 +131,7 @@ main section.middle article{
 }
 
 a.project{
+    width: 100%;
     text-decoration: none;
     color: black;
 }
