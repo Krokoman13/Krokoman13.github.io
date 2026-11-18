@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Combination Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="site-header">
+    <p class="eyebrow">Enter the code</p>
+    <h1 id="game-title">Combination Check</h1>
+    <p id="game-subtitle" class="subtitle">Select three. Confirm the code.</p>
+
+    <div class="game-status">
+      <span id="timer-display" class="timer-display" aria-hidden="true">⏱ 0:10:00</span>
+      <span id="score-display" class="score-display">★ Score: 0</span>
+    </div>
+    
+    <div class="actions">
+      <button id="lock-btn" class="lock-btn" type="button" disabled>Lock it in</button>
+    </div>
+  </header>
+
+  <div class="dial-row" id="dial-row" aria-hidden="true"></div>
+
+  <main>
+    <section class="tray" aria-label="Current selection">
+      <div class="tray-slot" data-slot="0"><span class="tray-empty">&mdash;</span></div>
+      <div class="tray-slot" data-slot="1"><span class="tray-empty">&mdash;</span></div>
+      <div class="tray-slot" data-slot="2"><span class="tray-empty">&mdash;</span></div>
+    </section>
+
+    <div class="actions">
+      <button id="check-btn" class="check-btn" type="button" disabled>Check combination</button>
+
+    </div>
+
+    <section class="options-grid" id="options-grid" aria-label="Available options"></section>
+
+    <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-stats">
+      <span id="progress-text"></span>
+      <span id="stats-text" class="stats-text"></span>
+    </div>
+
+    <div class="footer-actions">
+      <button id="reset-btn" class="reset-link" type="button">Reset progress</button>
+    </div>
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js" defer></script>
+</body>
+</html>
